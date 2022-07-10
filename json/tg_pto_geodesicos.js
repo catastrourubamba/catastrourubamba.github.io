@@ -1,0 +1,10 @@
+var tg_pto_geodesicos = {
+"type": "FeatureCollection",
+"name": "tg_pto_geodesicos",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "este": 812599.234, "norte": 8528342.89, "h": 3213.583, "codigo": "CUS13035", "coord_x": 812599.234, "coord_y": 8528342.89, "coord_lat": "-13.29578", "coord_long": "-72.11498", "alti_geo": 3214.0, "alti_orto": null, "altitud": null, "orden": "C", "meto_lev": "Estatico", "datum": "WGS 84", "fuente": "MUNICIPALIDAD PROVINCIAL DE URUBAMBA", "referencia": null, "descripcion": "CUS13035", "id_ubi_geo": "081301", "info": "https://drive.google.com/file/d/1Gq7twUJEA_n_-fgZnOE8CxMSxicvOGDY/view?usp=sharing" }, "geometry": { "type": "Point", "coordinates": [ -72.114985088584078, -13.295786592752366 ] } },
+{ "type": "Feature", "properties": { "id": 2, "este": 813388.219, "norte": 8526936.789000001, "h": 2921.376, "codigo": "CUS13033", "coord_x": 813388.219, "coord_y": 8526936.789000001, "coord_lat": "-13.30840", "coord_long": "-72.10755", "alti_geo": 2921.0, "alti_orto": null, "altitud": null, "orden": "C", "meto_lev": "Estatico", "datum": "WGS 84", "fuente": "MUNICIPALIDAD PROVINCIAL DE URUBAMBA", "referencia": "Estadio de Urubamba", "descripcion": "CUS13033", "id_ubi_geo": "081301", "info": "https://drive.google.com/file/d/1GxXqL2AtRr1n8OUepsrl9YOW5--DWKge/view?usp=sharing" }, "geometry": { "type": "Point", "coordinates": [ -72.107559268574093, -13.308402285705258 ] } },
+{ "type": "Feature", "properties": { "id": 3, "este": 811497.701, "norte": 8526579.385, "h": 3244.923, "codigo": "CUS13034", "coord_x": 811497.701, "coord_y": 8526579.385, "coord_lat": "-13.31182", "coord_long": "-72.12495", "alti_geo": 3245.0, "alti_orto": null, "altitud": null, "orden": "C", "meto_lev": "Estatico", "datum": "WGS 84", "fuente": "MUNICIPALIDAD PROVINCIAL DE URUBAMBA", "referencia": null, "descripcion": "CUS13034", "id_ubi_geo": "081301", "info": "https://drive.google.com/file/d/10gb0snDKiwEngLat-NHIAQClyj2957Mf/view?usp=sharing" }, "geometry": { "type": "Point", "coordinates": [ -72.124954287203636, -13.311827995481101 ] } }
+]
+}

@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.lotelabel {
+    color: rgba(122,184,0);
+    font-family: 'Open Sans', serif;
+    font-weight: bold;
+    margin: 0px;
+    padding: 5px 8px;
+    }
+.sectorTooltip {
+    background-color: transparent;
+    font-size: x-small;
+    font-family: Tahoma;
+    border: none;
+    box-shadow: none;
+    color: #651a76;
+    font-weight: bold;
+    }
+.mzTooltip {
+    background-color: transparent;
+    font-size: x-small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    box-shadow: none;
+    color: cyan;
+    font-weight: bold;
+    -webkit-text-stroke: 1px rgb(12, 130, 240)
+    }
+.line{ 
+    stroke: rgba(0, 0, 0, 0.942);
+    fill: none;
+    stroke-dasharray: 3,3; 
+    stroke-width: 2;  
+    }
+.lote{ 
+    stroke: rgb(0, 0, 0);
+    fill: rgba(255, 254, 254, 0.075);
+    stroke-width: 3;  
+    }
+.manzana{ 
+    stroke: cyan;
+    fill: rgba(0, 255, 255, 0.51);
+    stroke-width: 3;  
+    }
+.sector{
+    stroke: #7c00a5;
+    fill: #7c00a5aa;
+    stroke-width: 3;
+}
+
+.map-title { 
+    transform: translate(-50%,20%);
+    position: fixed !important;
+    left: 50%;
+    text-align: center;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    background: rgba(255,255,255,0.75);
+    font-weight: bold;
+    font-size: 28px;
+  }
+h1{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    background: rgba(255,255,255,0.75);
+    color: rgba(122,184,0);
+    -webkit-text-stroke: 1px rgb(23, 83, 215);
+
+}
+
+h2{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    background: rgba(255, 255, 255, 0.374);
+    color: rgba(122,184,0);
+    -webkit-text-stroke: 1px rgb(23, 83, 215);
+
+}
