@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.lotelabel {
+    color: rgba(122,184,0);
+    font-family: 'Open Sans', serif;
+    font-weight: bold;
+    margin: 0px;
+    padding: 5px 8px;
+    }
+.sectorTooltip {
+    background-color: transparent;
+    font-size: x-small;
+    font-family: Tahoma;
+    border: none;
+    box-shadow: none;
+    color: #651a76;
+    font-weight: bold;
+    }
+.mzTooltip {
+    background-color: transparent;
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    box-shadow: none;
+    color: cyan;
+    font-weight: bold;
+    -webkit-text-stroke: 1px rgb(12, 130, 240)
+    }
+
+.line{ 
+    stroke: rgba(0, 0, 0, 0.942);
+    fill: none;
+    stroke-dasharray: 3,3; 
+    stroke-width: 2;  
+    }
+.lote{ 
+    stroke: rgb(0, 0, 0);
+    fill: rgba(255, 254, 254, 0.075);
+    stroke-width: 2;  
+    }
+.manzana{ 
+    stroke: cyan;
+    fill: rgba(0, 255, 255, 0.51);
+    stroke-width: 2;  
+    }
+.sector{
+    stroke: #7c00a5;
+    fill: #7c00a5aa;
+    stroke-width: 2;
+}
+
+.map-title { 
+    transform: translate(-50%,20%);
+    position: fixed !important;
+    left: 50%;
+    text-align: center;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    background: rgba(255,255,255,0.75);
+    font-weight: bold;
+    font-size: 28px;
+  }
+h1{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    background: rgba(255,255,255,0.75);
+    color: rgba(122,184,0);
+    -webkit-text-stroke: 1px rgb(23, 83, 215);
+
+}
+
+h2{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    background: rgba(255, 255, 255, 0.374);
+    color: rgba(122,184,0);
+    -webkit-text-stroke: 1px rgb(23, 83, 215);
+
+}
+
+
+.help {
+    font-size: 1.5em;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    z-index: 10;
+    background-color: rgba(76, 234, 36, 0.626);
+    color: rgb(3, 24, 255);
+    padding: 10px;
+    margin: 0px;
+    font-style: oblique;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    -webkit-text-stroke: 1px rgb(23, 81, 215);
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.container{
+    position: absolute;
+    z-index: 2000;
+    bottom: 0px;
+    margin: 0;
+    right: 0px;
+    font-family: Tahoma;
+    background: linear-gradient( -55deg, #9ea1ae, #8db6e8);
+    border-radius: 7%;
+    box-shadow: 0 1px 3px rgba(6, 106, 238, 0.579);
+    padding: 0px;
+}
+
+
+.header {
+    font-size: 1.8rem;
+    color: #7f7f7f;
+  }
+
+.title {
+    font-size: 1.1rem;
+    color: #0066ff;
+    font-weight: bold;
+    font-family:cursive;
+  }
+
+p {
+    font-size: 0.9rem;
+    color: #020408;
+    font-weight: bold;
+    font-family:cursive;
+  }
+
+.bottom {
+    margin-top: 64px;
+    font-size: 0.8rem;
+    color: #7f7f7f;
+  }
