@@ -418,7 +418,7 @@ let contents = `
           <div class="title">Vision</div>
           <p><b>Líder entre las entidades generadoras de Catastro en el Perú.</b></p>
           <div class="title">Tutorial 2022</div>
-          <a href="https://youtu.be/iT-Yh0IjTIM">&#127760 Ver Tutorial &#127760</a>
+          <a href="https://youtu.be/iT-Yh0IjTIM">&#127760 Ver Tutorial</a>
       </div>`;
 
 
